@@ -1,0 +1,51 @@
+<div class="container-fluid">
+    <div class=row>
+        <div class="col-6 mb-4 ms-3">
+            <div class="card-child ms-5 p-4">
+                <div class="card-header">
+                   <h3 class="mt-4 text-primary heading">Personal Details</h3>
+                </div>
+                <div class="row card-body">
+                    <div class="col-6 form-group">
+                        <label>Full Name</label>
+                        <input type="text" class="form-control w-75" 
+                        placeholder="Enter your Full Name">
+                        <label>Phone</label>
+                        <input type="text" class="form-control w-75"
+                         placeholder="+91">
+                    </div>
+                    <div class="col-6 form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control w-75"
+                         placeholder="Enter your Email Address @">
+                        <label>Website Url</label>
+                        <input type="text" class="form-control w-75"
+                         placeholder="Enter your Web Url">
+                    </div>
+                </div>
+                    <div class="card-header">
+                       <h3 class="mt-4 text-primary heading">Address</h3>
+                    </div>
+                    <div class="row card-body">
+                        <div class="col-6 form-group">
+                            <label>Street</label>
+                            <input type="text" class="form-control w-75"
+                             placeholder="Enter your Street Area">
+                            <label>City</label>
+                            <input type="text" class="form-control w-75"
+                             placeholder="Enter your City">
+                        </div>
+                        <div class="col-6 form-group">
+                            <label>State</label>
+                            <input type="email" class="form-control w-75"
+                             placeholder="Enter your State">
+                            <label>Zipcode</label>
+                            <input type="text" class="form-control w-75"
+                             placeholder="Enter your Zipcode">
+                        </div>
+                        <div class="text-right mt-3">
+                            <button (click)="Cancelled()" class="btn btn-warning me-3">Cancel</button>
+                            <button (click)="Updated()" class="btn btn-primary">Update</button>
+                        </div>
+                    </div>
+                </div>
